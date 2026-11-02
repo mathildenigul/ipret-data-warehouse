@@ -1,0 +1,1 @@
+The Talend jobs are not included in this repository because the export contains connection settings. They consist of 9 loading jobs (read CSV, truncate and insert into bronze, all columns as strings) and a master job that runs them in order. See the screenshots.
