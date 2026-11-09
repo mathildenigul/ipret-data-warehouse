@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: ipret
+    schema: bronze
+    tables:
+      - name: tb_statut_pret
+      - name: tb_statut_emprunteur
+      - name: tb_type_emprunteur
+      - name: tb_type_pret
+      - name: tb_mode_remboursement
+      - name: tb_periodicite_remboursement
+      - name: tb_emprunteur
+      - name: tb_pret
+      - name: tb_remboursement
